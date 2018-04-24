@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using LinkedListGame;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,8 @@ namespace EasterAssignment.Classes.ServiceClasses
         public static Game CurrentGame;
         public static Random random = new Random();
         public static InputEngine inputEngine;
-        
+        public static LinkedList<Coin> AllCoins;
+        public static LinkedList<Slot> AllSlots;
 
         
         

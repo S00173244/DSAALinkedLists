@@ -47,6 +47,7 @@
     <Compile Include="IScene.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="Map.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="PlayScene.cs" />
     <Compile Include="SceneManager.cs" />
     <Compile Include="Slot.cs" />
@@ -68,6 +69,7 @@
   <ItemGroup>
     <Content Include="Content\Images\coin.png" />
     <Content Include="Content\Images\play.jpg" />
+    <Content Include="Content\Images\player.png" />
     <Content Include="Content\Images\slot.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>

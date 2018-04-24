@@ -34,13 +34,14 @@ namespace EasterAssignment.Classes.SceneClasses
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            AllTheSpritesWithinTheScene.ForEach(c => c.Draw(spriteBatch));
             spriteBatch.Begin();
 
-            //spriteBatch.Draw(TextureManager.AllTextures[BackgroundTextureKey], Vector2.Zero, Color.White);
-            
+            spriteBatch.Draw(TextureManager.AllTextures[BackgroundTextureKey], Vector2.Zero, Color.White);
+
 
             spriteBatch.End();
+            AllTheSpritesWithinTheScene.ForEach(c => c.Draw(spriteBatch));
+           
             
         }
 

@@ -1,4 +1,5 @@
 ﻿using EasterAssignment.Classes.ContentManagerClasses;
+using EasterAssignment.Classes.ServiceClasses;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -16,8 +17,8 @@ namespace LinkedListGame
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-            graphics.PreferredBackBufferWidth = 1000;
-            graphics.PreferredBackBufferHeight = 1000;
+            graphics.PreferredBackBufferWidth = 1366;
+            graphics.PreferredBackBufferHeight = 768;
             Content.RootDirectory = "Content";
         }
 
@@ -70,6 +71,7 @@ namespace LinkedListGame
 
             // TODO: Add your update logic here
             sceneManager.Update(gameTime);
+            //System.Console.WriteLine("Mouse : {0}",InputEngine.MousePosition);
             base.Update(gameTime);
         }
 

@@ -18,6 +18,7 @@ namespace LinkedListGame
         public string SpriteTextureKey { get; set; }
         public Rectangle Bounds { get; set; }
         public int AcceptedCoinValue { get; set; }
+        public int InsertedCoins = 0;
 
         public void Update(GameTime gameTime)
         {
@@ -28,7 +29,7 @@ namespace LinkedListGame
         {
             spriteBatch.Begin();
             spriteBatch.Draw(TextureManager.AllTextures[SpriteTextureKey], SpritePosition, Color.White);
-            spriteBatch.DrawString(Helper.SpriteFont, AcceptedCoinValue.ToString(), SpritePosition, Color.White);
+            spriteBatch.DrawString(Helper.SpriteFont, "Accepted Coin : " + AcceptedCoinValue.ToString() +"\n"+ "Inserted Coins : " + InsertedCoins, SpritePosition, Color.White);
             spriteBatch.End();
         }
     }

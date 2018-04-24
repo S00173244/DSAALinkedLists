@@ -26,6 +26,7 @@ namespace EasterAssignment.Classes.ContentManagerClasses
         public SceneManager()
         {
             AllScenes = new Stack<IScene>();
+            
         }
         public void Update(GameTime gameTime)
         {

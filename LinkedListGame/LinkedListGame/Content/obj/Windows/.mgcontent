@@ -4,9 +4,10 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/S00173244/Source/Repos/DSAATaskWeek7/LinkedListGame/LinkedListGame/Content/Images/coin.png</File>
-    <File>C:/Users/S00173244/Source/Repos/DSAATaskWeek7/LinkedListGame/LinkedListGame/Content/Images/play.jpg</File>
-    <File>C:/Users/S00173244/Source/Repos/DSAATaskWeek7/LinkedListGame/LinkedListGame/Content/Images/slot.png</File>
-    <File>C:/Users/S00173244/Source/Repos/DSAATaskWeek7/LinkedListGame/LinkedListGame/Content/Fonts/font.spritefont</File>
+    <File>C:/Users/S00173244/Source/Repos/DSAALinkedLists/LinkedListGame/LinkedListGame/Content/Images/coin.png</File>
+    <File>C:/Users/S00173244/Source/Repos/DSAALinkedLists/LinkedListGame/LinkedListGame/Content/Images/play.jpg</File>
+    <File>C:/Users/S00173244/Source/Repos/DSAALinkedLists/LinkedListGame/LinkedListGame/Content/Images/slot.png</File>
+    <File>C:/Users/S00173244/Source/Repos/DSAALinkedLists/LinkedListGame/LinkedListGame/Content/Fonts/font.spritefont</File>
+    <File>C:/Users/S00173244/Source/Repos/DSAALinkedLists/LinkedListGame/LinkedListGame/Content/Images/player.png</File>
   </SourceFiles>
 </SourceFileCollection>
